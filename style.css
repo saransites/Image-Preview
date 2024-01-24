@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    margin:10px;
+}
+.imgcontainer{
+    display:flex;
+    flex-wrap: wrap;
+    column-gap:10px;
+    width:fit-content;
+    padding:10px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+.imgcontainer img{
+    width:100px;
+    height:100px;
+    cursor:pointer;
+}
+.imageEl{
+    width:30%;
+    border:2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px white;
+}
+.overlay{
+    width:100vw;
+    height:100vh;
+    background:black;
+    opacity:0.95;
+    position:absolute;
+    top:0;
+    display:grid;
+    place-items: center;
+}
+.overlay .delbtn{
+    padding:5px;
+    position:absolute;
+    top:5%;
+    right:10%;
+    cursor:pointer;
+}
